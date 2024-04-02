@@ -8,7 +8,7 @@ export type DirectoryCategory = {
   route: string;
 }
 
-const categories = [
+const categories: DirectoryCategory[] = [
   {
       "id": 1,
       "title": "hats",
